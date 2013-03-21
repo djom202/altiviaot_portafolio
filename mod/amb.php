@@ -4,11 +4,11 @@
          <div id="myAmb" class="carousel slide">
            <!-- Carousel items -->
             <div class="carousel-inner">
-               <div class="active item"><img src="themes/img/amb/0.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/amb/1.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/amb/2.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/amb/3.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/amb/4.jpg" alt=""></div>
+               <div class="active item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/amb/0.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/amb/1.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/amb/2.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/amb/3.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/amb/4.jpg" alt=""></div>
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myAmb" data-slide="prev">&lsaquo;</a>

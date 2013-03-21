@@ -4,9 +4,9 @@
          <div id="myHogar" class="carousel slide">
            <!-- Carousel items -->
             <div class="carousel-inner">
-               <div class="item active"><img src="themes/img/hogar/0.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/hogar/1.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/hogar/2.jpg" alt=""></div>
+               <div class="item active"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/hogar/0.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/hogar/1.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/hogar/2.jpg" alt=""></div>
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myHogar" data-slide="prev">&lsaquo;</a>
@@ -29,8 +29,8 @@
    <div class="detalles span3">
       <span class="span3">
          <?php if (file_exists("mod/perfil.php")){ include('mod/perfil.php'); } ?>
-         <p><strong>Client:</strong>Proyecto Universitario</p>   
-         <p><strong>Project:</strong>Fundación Hogar Madre Marcelina</p>            
+         <p><strong>Client:</strong>Proyecto Universitario</p>
+         <p><strong>Project:</strong>Fundación Hogar Madre Marcelina</p>
          <p><strong>Project specifics:</strong></p>
          <ul class="unstyled">
             <li>Website Design</li>

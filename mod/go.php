@@ -4,14 +4,14 @@
          <div id="myGo" class="carousel slide">
            <!-- Carousel items -->
             <div class="carousel-inner">
-               <div class="active item"><img src="themes/img/go/0.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/go/1.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/go/2.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/go/3.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/go/4.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/go/5.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/go/6.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/go/7.jpg" alt=""></div>
+               <div class="active item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/go/0.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/go/1.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/go/2.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/go/3.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/go/4.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/go/5.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/go/6.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/go/7.jpg" alt=""></div>
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myGo" data-slide="prev">&lsaquo;</a>

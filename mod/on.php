@@ -4,7 +4,7 @@
          <div id="myOn" class="carousel slide">
            <!-- Carousel items -->
             <div class="carousel-inner">
-               <div class="active item"><img src="themes/img/on/0.jpg" alt=""></div>
+               <div class="active item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/on/0.jpg" alt=""></div>
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myOn" data-slide="prev">&lsaquo;</a>

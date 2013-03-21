@@ -4,12 +4,12 @@
          <div id="myAngela" class="carousel slide">
            <!-- Carousel items -->
             <div class="carousel-inner">
-               <div class="active item"><img src="themes/img/angela/0.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/angela/1.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/angela/2.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/angela/3.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/angela/4.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/angela/5.jpg" alt=""></div>
+               <div class="active item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/angela/0.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/angela/1.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/angela/2.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/angela/3.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/angela/4.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/angela/5.jpg" alt=""></div>
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myAngela" data-slide="prev">&lsaquo;</a>

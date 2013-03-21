@@ -2,15 +2,15 @@
    <div class="span8">
       <div class="slides span8">
          <div id="myOnw" class="carousel slide">
-           <!-- Carousel items -->
+            <!-- Carousel items -->
             <div class="carousel-inner">
-               <div class="active item"><img src="themes/img/onw/0.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/onw/1.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/onw/2.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/onw/3.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/onw/4.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/onw/5.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/onw/6.jpg" alt=""></div>
+               <div class="active item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/onw/0.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/onw/1.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/onw/2.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/onw/3.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/onw/4.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/onw/5.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/onw/6.jpg" alt=""></div>
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myOnw" data-slide="prev">&lsaquo;</a>
@@ -33,8 +33,8 @@
    <div class="detalles span3">
       <span class="span3">
          <?php if (file_exists("mod/perfil.php")){ include('mod/perfil.php'); } ?>
-         <p><strong>Client:</strong>On Creativity</p>   
-         <p><strong>Project:</strong>OnCreativity</p>            
+         <p><strong>Client:</strong>On Creativity</p>
+         <p><strong>Project:</strong>OnCreativity</p>
          <p><strong>Project specifics:</strong></p>
          <ul class="unstyled">
             <li>Website Re-Design</li>

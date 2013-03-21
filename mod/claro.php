@@ -4,9 +4,9 @@
          <div id="myClaro" class="carousel slide">
            <!-- Carousel items -->
             <div class="carousel-inner">
-               <div class="item active"><img src="themes/img/claro/0.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/claro/1.jpg" alt=""></div>
-               <div class="item"><img src="themes/img/claro/2.jpg" alt=""></div>
+               <div class="item active"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/claro/0.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/claro/1.jpg" alt=""></div>
+               <div class="item"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/claro/2.jpg" alt=""></div>
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myClaro" data-slide="prev">&lsaquo;</a>

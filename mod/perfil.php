@@ -1,5 +1,5 @@
 <div class="perfil span3">
-	<img src="themes/img/djom20.jpg" class="circle">
+	<img src="https://dl.dropbox.com/u/57960869/Altiviaot/portafolio/djom20.jpg" class="circle">
 	<div class="info">
 		<p>Ing. Jonathan Olier</p>
 		<p><i class="github"></i><a href="http://github.com/djom20"> Djom202</a></p>

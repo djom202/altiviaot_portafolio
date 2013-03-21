@@ -1,4 +1,4 @@
-<?php 
+<?php
 	ob_start('ob_gzhandler');
 	header('Vary: Accept-Encoding');
 	$cache_expire = 0;
@@ -6,6 +6,7 @@
 	header("Pragma: no-cache");
 	header("Pragma: no-store");
 	header('Expires: ' . date('D, d M Y H:i:s', time()+$cache_expire) . ' GMT');
+	define('Dropbox', 'https://dl.dropbox.com/u/57960869/');
 ?>
 <!DOCTYPE HTML>
 <html lang="es-CO">
@@ -17,6 +18,7 @@
 		<meta name="author" content="Ing. Jonathan Olier Miranda"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		<link rel="shortcut icon" type="image/x-ico" href="themes/ico/fav.ico" />
+		<link rel="stylesheet" type="text/css" href="themes/css/loader.css" media="all">
 		<link rel="stylesheet" type="text/css" href="themes/css/stylesheet.min.css" media="all">
 		<link rel="stylesheet" type="text/css" href="themes/css/docs/assets/css/docs.css" media="all">
 		<link rel="stylesheet" type="text/css" href="themes/css/docs/assets/css/bootstrap.css" media="all">
@@ -28,7 +30,7 @@
 		<div id="front" class="row">
 			<div id="logo" class="row">
 				<div class="span3">
-					<a href="http://altiviaot.com"><img src="themes/img/logotipo.png" alt=""></a>
+					<a href="http://altiviaot.com"><img src="<?php echo Dropbox; ?>Altiviaot/portafolio/logotipo.png" alt=""></a>
 				</div>
 			</div>
 			<br>
@@ -49,8 +51,8 @@
 			</footer>
 		</div>
 	</body>
-	<script type="text/javascript" src="themes/css/docs/assets/js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="themes/css/docs/assets/js/bootstrap-carousel.js"></script>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://raw.github.com/twitter/bootstrap/master/js/bootstrap-collapse.js"></script>
 	<script type="text/javascript" src="themes/js/disable select text.js"></script>
 	<script type="text/javascript">
 		$(window).load(function () {
